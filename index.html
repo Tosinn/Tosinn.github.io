@@ -1,29 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>inch to foot converter</title>
-	<link rel="stylesheet" type="text/css" href="converter.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="converter.js"></script>
-	<script>
-	$(document).ready(function() {
-    $("input").focus(function() {
-        $(this).css("background-color", "#5574a6");
-    });
-    $("input").blur(function(){
-        $(this).css("background-color", "#ffffff");
-    });
-    });
-	</script>
-  </head>
-  <body>
-    <form name="converter" id="inconv">
-	  <h1>Inch to foot converter</h1>
-	  <label for="inches">Inches:</label>
-	  <input type="number" id="inch" name="inches" /><br><br>
-	  <input type="button" onclick="convertToFoot();" value="convert" /><br><br>
-	  <label for="feet">Feet:</label>
-	  <input type="number" id="ft" name="feet" />
-	</form>
-  </body>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="port.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        	<script>
+			$(document).ready(function(){
+			$(".comments").hide();
+			$("#meaning").click(function(){
+			var answer = document.getElementById("ans").innerHTML;
+
+			if(answer.length == 0){
+			$("#nothing").show("slow");
+			$("#nothing").delay(7000).fadeOut("slow");
+			}
+			else if(answer < 18.5){
+			$("#under").show();
+			$("#under").delay(2000).fadeOut("slow");
+			}
+			else if(answer >= 18.5 && answer <=24.9){
+			$("#normal").show("slow");
+			$("#normal").delay(7000).fadeOut("slow");
+			}
+			else if(answer >= 25 && answer <=29.9){
+			$("#over").show("slow");
+			$("#over").delay(7000).fadeOut("slow");
+			}
+			else if(answer >= 30 ){
+			$("#obese").show("slow");
+			$("#obese").delay(7000).fadeOut("slow");
+			}
+			else{
+			$("#value").show("slow");
+			$("#value").fadeOut("slow");
+			}
+			});
+			});			
+		</script>
+	<head>
+	<body>
+		<div class="first">
+		  	<div class="main">
+	      		<h1>Hi! My name is Liz <br> and I love
+		        designing beautiful interfaces</h1>  
+		      	<div id="work" class="introBox"><a href = "#scd">Work</a></div>
+		      	<div id="contact" class="introBox"><a href = "#con">Contact</a></div>
+		  	</div>
+		</div>
+		<div id="scd" class="second">
+			<div class="app">
+			<h2 id="check">Check your Body Mass Index (BMI)</h2>
+			Weight(kg): 
+			<input type = "number" id="wgt" min=0><br><br>
+			Height(m):
+			<input type = "number" id="hgt" min=0><br><br>
+			<input type = "button" onClick="calcB()" id="chkB" value = "check BMI" />
+
+			<p>The result is: <span id = "ans"></span></p>
+
+			<input type = "button" id = "meaning" value = "What does this mean?"/>
+
+			<p id = "under" class="comments">You're underweight, but not to worry<br>
+		    just eat more healthy food.
+			</p>
+            </div>
+
+			<p id="normal" class="comments">Good job! Your weight is normal. Keep it up!
+			</p>
+
+			<p id="over" class="comments">You're overweight but exercise and healthy foods should help.
+			</p>
+
+			<p id="obese" class="comments">you're obese but exercise and healthy eating should help.
+			</p>
+			<p id="nothing" class="comments">You have not entered any value.
+			</p>
+			<p id="value" class="comments">Please enter a value.
+			</p>
+		</div>
+		<div id="con" class="third">
+			<h2 id="mail">liz4arts@gmail.com</h2>
+		</div>
+		<script src="port.js"></script>
+	</body>
 </html>
