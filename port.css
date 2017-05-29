@@ -165,8 +165,42 @@ body{
       margin-left:30px;
       font-size: 20px;
       }
+      /*for screens larger than 320px but less than 480px*/
+        @media only screen and (min-width: 320px) and (max-width: 480px){
+        #mail{
+            margin-top: 100px;
+            margin-left: 70px;
+            font-size: 28px;
+          }
+      .main{
+          width: 250px;
+          height: 400px;
+        }
+    h1{
+          font-size: 25px;
+        }
+        #work{
+          margin-left: 20px;
+          margin-top: 60px;
+          height: 50px;
+          padding-top: 10px;
+        }
+        #contact{
+          margin-top: 60px;
+          margin-left: 150px;
+          width: 32%;
+          height: 50px;
+          padding-top: 10px;
+
+        }
+        a{
+          margin-left: 15px;
+          font-size: 20px;
+        }
+  } 
+  
     /*for tab*/
-      @media only screen and (min-width: 320px) and (max-width: 600px){
+      @media only screen and (min-width: 480px) and (max-width: 600px){
         #mail{
             margin-top: 100px;
             margin-left: 120px;
@@ -177,7 +211,7 @@ body{
           height: 400px;
         }
     h1{
-          font-size: 22px;
+          font-size: 28px;
         }
         #work{
           margin-left: 50px;
@@ -202,7 +236,7 @@ body{
     @media only screen and (min-width: 600px){
         #mail{
             margin-top: 150px;
-            margin-left: 500px;
+            margin-left: 550px;
             font-size: 40px;
         }
         .main{
