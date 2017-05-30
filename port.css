@@ -61,17 +61,20 @@ body{
       margin-left:10px;
       vertical-align: middle;
       }
-      #scd{
-
+      .container{
+      width: 100%;
+      height: 100vh;
+      position:relative;
       }
       .second{
+      position: absolute;
       color: white;
       font-family: 'Ubuntu', sans-serif;
       text-align: center;
       margin-top: 0;
       font-size: 20px;
       width: 100%;
-      height: 100vh;
+      height: 100%;
       border: 2px solid white;
       /*background: url("click for health.jpg");
       background-repeat: no-repeat;
@@ -80,6 +83,20 @@ body{
       min-height: 100vh;
       width: auto;
       cursor: pointer;*/
+      }
+      #health{
+      position:absolute;
+      width: 100%;
+      height: 70%;
+      color: white;
+      background: #508ba8;
+      text-align: center;
+      padding-top: 200px;
+      font-size: 80px;
+      font-family: 'Handlee', cursive;
+      opacity: 1;
+      font-weight: bold;
+      cursor: pointer;
       }
       .app{
         margin-top: 50px;
