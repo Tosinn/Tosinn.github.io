@@ -4,11 +4,15 @@
     	<link rel="stylesheet" type="text/css" href="port.css">
         <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         	<script>
 			$(document).ready(function(){
 			$(".comments").hide();
+			$("#health").click(function(){
+		        $(this).fadeOut();
+			});
 			$("#meaning").click(function(){
 			var answer = document.getElementById("ans").innerHTML;
 
@@ -49,6 +53,7 @@
 		      	<div id="contact" class="introBox"><a href = "#con">Contact</a></div>
 		  	</div>
 		</div>
+		<div class="container">
 		<div id="scd" class="second">
 			<div class="app">
 			<h2 id="check">Check your Body Mass Index (BMI)</h2>
@@ -65,7 +70,7 @@
 			<p id = "under" class="comments">You're underweight, but not to worry<br>
 		    just eat more healthy food.
 			</p>
-            </div>
+                </div>
 
 			<p id="normal" class="comments">Good job! Your weight is normal. Keep it up!
 			</p>
@@ -79,6 +84,11 @@
 			</p>
 			<p id="value" class="comments">Please enter a value.
 			</p>
+		</div>
+                <div id="health">Click <br>for<br> Health</div>
+                </div>
+		<div id="con" class="third">
+			<h2 id="mail">liz4arts@gmail.com</h2>
 		</div>
 		<div id="con" class="third">
 			<h2 id="mail">liz4arts@gmail.com</h2>
