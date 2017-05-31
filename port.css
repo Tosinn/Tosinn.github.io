@@ -191,7 +191,7 @@ body{
           }
       .main{
           width: 250px;
-          height: 400px;
+          height: 350px;
         }
     h1{
           font-size: 25px;
@@ -213,6 +213,9 @@ body{
         a{
           margin-left: 15px;
           font-size: 20px;
+        }
+        #health{
+        height: 64%;
         }
   } 
   
