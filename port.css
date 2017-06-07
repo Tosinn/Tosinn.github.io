@@ -83,13 +83,14 @@ body{
       min-height: 100vh;
       width: auto;
       cursor: pointer;*/
+      background:linear-gradient(to right,#044e54, #070707, #044e54);
       }
       #health{
       position:absolute;
       width: 100%;
       height: 70%;
       color: white;
-      background: #508ba8;
+      background: #044e54;
       text-align: center;
       padding-top: 200px;
       font-size: 80px;
@@ -105,34 +106,52 @@ body{
       color: white;
       text-align: center;
       font-size: 28px;
-      }
+      font-family: 'Pompiere', cursive;
+	  font-weight: bolder;
+      }  
+	  label,#res{
+	  font-family: 'Pompiere', cursive;
+	  font-weight: bold;
+	  }
       #wgt{
       border-radius: 2px;
       width:50px;
       height:20px;
+      background:#cbeaed;
       }
       #hgt{
       border-radius: 2px;
       width:50px;
       height:20px;
+      background:#cbeaed;
       }
-      #chkB{
-        background-color: white;
+      #checking{
+        background-color: #cbeaed;
         border-style: outset;
         border-color: none;
         color: black;
-        font-weight: bold; 
+        font-weight: bolder;
+		height: 25px;
+		font-size:15px;
+		font-family: 'Dekko', cursive;
       }
       #ans{
       margin-left: 40px;   
       }
       #meaning{
-        background-color: white;
+        background-color: #cbeaed;
         border-style: outset;
         border-color: none;
         color: black;
-        font-weight: bold;  
+        font-weight: bolder;
+		height: 25px;
+		font-size:15px;
+		font-family: 'Dekko', cursive;        
       }
+      .comments{
+		font-family: 'Pompiere', cursive;
+		font-size: 30px;
+		}
       .underContent{
       border: 2px solid white;
       width: 20%;
