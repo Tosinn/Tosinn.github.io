@@ -1,303 +1,241 @@
 body{
-    background: black;
-    background-size: cover;
-  }
-  .first{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    border: 2px solid white;
-    font-family: 'Caveat', cursive;
-    margin: 0;
-    padding: 0;
-      }
-  .main{
-    position: absolute;
-    border: 2px solid;
-    border-color: #e52994 #934f76 #4e8c92 #5c7773;
-    width: 200px;
-    height: 200px;
-    margin: 150px auto;
-    position: relative;
-      }
-  .introBox{
-  margin: auto;
-      }
-  h1{
-  color: white;
-  margin: auto;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 20px;
-     }
-  #work{
-  position: absolute;
-  width: 30%;
-      height:30px;
-      margin-left: 20px;
-      margin-top: 20px;
-      border: 2px solid white;
-      border-radius: 3px;
-      cursor: pointer;
-      font-weight: bold;
-      background: white;
-      }
-      #contact{
-      position: absolute;
-      width: 38%;
-      height: 30px;
-      margin-left: 100px;
-      margin-top: 20px;
-      border: 2px solid white;
-      border-radius: 3px;
-      cursor: pointer;
-      font-weight: bold;
-      background: white;  
-      }
-      a{
-      text-decoration: none;
-      color: black;
-      font-size: 15px;
-      margin-left:10px;
-      vertical-align: middle;
-      }
-      .container{
-      width: 100%;
-      height: 100vh;
-      position:relative;
-      }
-      .second{
-      position: absolute;
-      color: white;
-      font-family: 'Ubuntu', sans-serif;
-      text-align: center;
-      margin-top: 0;
-      font-size: 20px;
-      width: 100%;
-      height: 100%;
-      border: 2px solid white;
-      /*background: url("click for health.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      min-height: 100vh;
-      width: auto;
-      cursor: pointer;*/
-      background:linear-gradient(to right,#044e54, #070707, #044e54);
-      }
-      #health{
-      position:absolute;
-      width: 100%;
-      height: 70%;
-      color: white;
-      background: #044e54;
-      text-align: center;
-      padding-top: 200px;
-      font-size: 80px;
-      font-family: 'Handlee', cursive;
-      opacity: 1;
-      font-weight: bold;
-      cursor: pointer;
-      }
-      .app{
-        margin-top: 50px;
-      }
-      #check{
-      color: white;
-      text-align: center;
-      font-size: 28px;
-      font-family: 'Pompiere', cursive;
-	  font-weight: bolder;
-      }  
-	  label,#res{
-	  font-family: 'Pompiere', cursive;
-	  font-weight: bold;
-	  }
-      #wgt{
-      border-radius: 2px;
-      width:50px;
-      height:20px;
-      background:#cbeaed;
-      }
-      #hgt{
-      border-radius: 2px;
-      width:50px;
-      height:20px;
-      background:#cbeaed;
-      }
-      #checking{
-        background-color: #cbeaed;
-        border-style: outset;
-        border-color: none;
-        color: black;
-        font-weight: bolder;
-		height: 25px;
-		font-size:15px;
-		font-family: 'Dekko', cursive;
-      }
-      #ans{
-      margin-left: 40px;   
-      }
-      #meaning{
-        background-color: #cbeaed;
-        border-style: outset;
-        border-color: none;
-        color: black;
-        font-weight: bolder;
-		height: 25px;
-		font-size:15px;
-		font-family: 'Dekko', cursive;        
-      }
-      .comments{
-		font-family: 'Pompiere', cursive;
-		font-size: 30px;
-		}
-      .underContent{
-      border: 2px solid white;
-      width: 20%;
-      height: 80px;
-      position:relative;
-      color: white;
-      }
-      .normalContent{
-      border: 2px solid white;
-      width: 20%;
-      height: 80px;
-      position:relative;
-      float: right;
-      clear: left;
-      }
-      .overContent{
-      border: 2px solid white;
-      width: 20%;
-      height: 80px;
-      position:relative;
-      float: right;
-      clear: left;
-
-      }
-      .obeseContent{
-      border: 2px solid white;
-      width: 20%;
-      height: 80px;
-      position:relative;
-      float: right;
-      clear: left;
-      }
-      .third{
-        width: 100%;
-        height: 10vh;
-        border: 2px solid white;
-        position:relative;
-        width: 100%;
-        height: 50vh;
-        font-family: 'Caveat', cursive;
-      }
-      #mail{
-      position:absolute;
-      color:white;
-      text-align:center;
-      margin-top: 150px;
-      margin-left:30px;
-      font-size: 20px;
-      }
-      /*for screens larger than 320px but less than 480px*/
-        @media only screen and (min-width: 320px) and (max-width: 480px){
-        #mail{
-            margin-top: 100px;
-            margin-left: 70px;
-            font-size: 28px;
-          }
-      .main{
-          width: 250px;
-          height: 350px;
-        }
-    h1{
-          font-size: 25px;
-        }
-        #work{
-          margin-left: 20px;
-          margin-top: 60px;
-          height: 50px;
-          padding-top: 10px;
-        }
-        #contact{
-          margin-top: 60px;
-          margin-left: 150px;
-          width: 32%;
-          height: 50px;
-          padding-top: 10px;
-
-        }
-        a{
-          margin-left: 15px;
-          font-size: 20px;
-        }
-        #health{
-        height: 62%;
-        }
-  } 
+ 
+   background:linear-gradient(to right,#044e54, #070707, #044e54);
+    
+   background-size: cover;
+   overflow-y: hidden; 
+ 
+   }
   
-    /*for tab*/
-      @media only screen and (min-width: 480px) and (max-width: 600px){
-        #mail{
-            margin-top: 100px;
-            margin-left: 120px;
-            font-size: 25px;
-          }
-      .main{
-          width: 350px;
-          height: 400px;
-        }
-    h1{
-          font-size: 28px;
-        }
-        #work{
-          margin-left: 50px;
-          margin-top: 60px;
-          height: 50px;
-          padding-top: 10px;
-        }
-        #contact{
-          margin-top: 60px;
-          margin-left: 210px;
-          width: 32%;
-          height: 50px;
-          padding-top: 10px;
+  .container{
+ 
+  width: 100%;
+    
+  height: 80vh;
 
-        }
-        a{
-          margin-left: 25px;
-          font-size: 20px;
-        }
-  }
-    /*for desktop*/
-    @media only screen and (min-width: 600px){
-        #mail{
-            margin-top: 150px;
-            margin-left: 550px;
-            font-size: 40px;
-        }
-        .main{
-          width: 400px;
-          height: 400px;
-        }
-        #work{
-          margin-left: 50px;
-          margin-top: 60px;
-          height: 50px;
-        }
-        #contact{
-          margin-top: 60px;
-          margin-left: 210px;
-          width: 32%;
-          height: 50px;
-        }
-        a{
-          margin-left: 25px;
-          font-size: 25px;
-        }
-        h1{
-          font-size: 30px;
-        }
+  position:relative;
+  
     }
+
+  .second{
+  
+ position: absolute;
+
+ color: white;
+
+ font-family: 'Ubuntu', sans-serif;
+
+ text-align: center;
+   
+ margin-top: 0;
+
+ font-size: 20px;
+
+ width: 100%;
+ 
+ height: 50%;
+
+/*background: url("click for health.jpg");
+   
+   background-repeat: no-repeat;
+  
+    background-position: center;
+
+      background-size: cover;
+   
+   min-height: 100vh;
+    
+  width: auto;
+
+  cursor: pointer;*/
+ 
+  
+     }
+ 
+      
+ .app{
+
+        margin-top: 50px;
+  
+    }
+
+      #check{
+   
+   color: white;
+  
+   text-align: center;
+
+   font-size: 28px;
+ 
+   font-family: 'Pompiere', cursive;
+
+   font-weight: bolder;
+ 
+     }  
+	
+  label,#res{
+
+font-family: 'Pompiere', cursive;
+
+font-weight: bold;
+	 
+ }
+
+   #wgt{
+
+ border-radius: 2px;
+  
+ width:50px;
+
+ height:20px;
+
+ background:#cbeaed;
+ 
+  }
+
+   #hgt{
+
+  border-radius: 2px;
+
+  width:50px;
+
+  height:20px;
+  
+ background:#cbeaed;
+
+      }
+ 
+  #checking{
+     
+ background-color: #cbeaed;
+    
+ border-style: outset;
+  
+ border-color: none;
+ 
+ color: black;
+
+ font-weight: bolder;
+height: 25px;
+
+font-size:15px;
+
+font-family: 'Dekko', cursive;
+ 
+     }
+ 
+  #ans{
+  
+ margin-left: 40px;
+   
+      }
+    
+ #meaning{
+ 
+   background-color: #cbeaed;
+    
+   border-style: outset;
+  
+   border-color: none;
+  
+   color: black;
+  
+   font-weight: bolder;
+	
+   height: 25px;
+
+font-size:15px;
+	
+font-family: 'Dekko', cursive;   
+     
+      }
+ 
+  .comments{
+
+font-family: 'Pompiere', cursive;
+
+font-size: 30px;
+	
+}
+
+  .underContent{
+
+border: 2px solid white;
+
+width: 20%;
+  
+height: 80px;
+
+position:relative;
+   
+color: white;
+  
+    }
+ 
+ .normalContent{
+ 
+border: 2px solid white;
+ 
+width: 20%;
+ 
+height: 80px;
+
+position:relative;
+
+float: right;
+
+clear: left;
+
+      }
+     
+.overContent{
+   
+   border: 2px solid white;
+ 
+   width: 20%;
+    
+  height: 80px;
+  
+  position:relative;
+  
+  float: right;
+ 
+  clear: left;
+
+
+      }
+      
+ .obeseContent{
+     
+ border: 2px solid white;
+
+ width: 20%;
+
+ height: 80px;
+
+ position:relative;
+
+ float: right;
+
+ clear: left;
+ 
+     }
+
+.foot{
+font-family: 'Pompiere', cursive;
+
+font-size: 19px;
+color: white;
+}
+      /*for screens larger than 320px but less than 480px*/
+   
+     @media only screen and (min-width: 320px) and (max-width: 480px){
+    
+    
+ #health{
+ 
+       height: 62%;
+ 
+       }
+  
+} 
