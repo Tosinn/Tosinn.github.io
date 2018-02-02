@@ -1,10 +1,8 @@
 body{
  
-   background:linear-gradient(to right,#044e54, #070707, #044e54);
-    
-   background-size: cover;
-   overflow-y: hidden; 
- 
+  background:linear-gradient(to right,#044e54, #070707, #044e54);
+  background-size: cover;
+  overflow-y: hidden; 
    }
   
   .container{
@@ -40,13 +38,11 @@ body{
    background-repeat: no-repeat;
   
     background-position: center;
-
       background-size: cover;
    
    min-height: 100vh;
     
   width: auto;
-
   cursor: pointer;*/
  
   
@@ -220,6 +216,7 @@ clear: left;
  clear: left;
  
      }
+
 .foot{
 font-family: 'Pompiere', cursive;
 text-align: right;
@@ -227,17 +224,23 @@ margin-right: 50px;
 font-size: 19px;
 color: white;
 }
-i {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    margin-right: 20px;
-    margin-bottom: 20px;
+#view{
+  background-color: #cbeaed;
+    
+ border-style: outset;
+  
+ border-color: none;
+ 
+ color: black;
+
+ font-weight: bolder;
+height: 25px;
+
+font-size:15px;
+font-family: 'Signika Negative', sans-serif;
+/*font-family: 'Dekko', cursive;*/
+text-align: center;
+
 }
       /*for screens larger than 320px but less than 480px*/
    
