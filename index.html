@@ -7,18 +7,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
        	<link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">s
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         	<script>
 		
 	$(document).ready(function(){
-
 	$(".comments").hide();
 	
 		$("#meaning").click(function(){
 	
 		var answer = document.getElementById("ans").innerHTML;
-
 	
 		if(answer.length == 0){
 	
@@ -33,15 +32,11 @@
 		$("#under").show();
 			
 		$("#under").delay(7000).fadeOut("slow");
-
 			}
-
 		else if(answer >= 18.5 && answer <=24.9){
-
 		$("#normal").show("slow");
 		
 		$("#normal").delay(7000).fadeOut("slow");
-
 		}
 	
 		else if(answer >= 25 && answer <=29.9){
@@ -55,21 +50,16 @@
 		else if(answer >= 30 ){
 	
 		$("#obese").show("slow");
-
 		$("#obese").delay(7000).fadeOut("slow");
-
 			}
 			
 		else{
 			
 		$("#value").show("slow");
-
 		$("#value").fadeOut("slow");
-
 		}
 		
 		});
-
 		});			
 	
 	</script>
@@ -129,8 +119,9 @@
 </div>
 
 
-	  <div class="foot">	
-		  <p id="view"> view more<p><i class="down"></i></p>
+	  <div class="foot">			
+         <!-- <button id="view" onClick="tracker app.html"> view more</button>-->
+          <a href="tracker app.html"><button id="view">view more</button></a>
 	  </div>						
 		<script src="port.js"></script>
 	</body>
