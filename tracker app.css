@@ -9,7 +9,7 @@ body{
    .titles{
 	color: #000066;
    }
-   .btns{
+   /*.btns{
     background-color: #000066;
     color: white;
     font-family: 'Signika Negative', sans-serif;
@@ -17,7 +17,7 @@ body{
    }
    #next1{
    float: right;
-   }
+   }*/
    .screens:hover{
 	transform: scale(1.5,1.5);
    }
