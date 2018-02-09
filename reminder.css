@@ -22,14 +22,21 @@ body{
 	transform: scale(1.5,1.5);
    }
 
+.foot{
+font-family: 'Pompiere', cursive;
+text-align: right;
+margin-right: 50px;
+font-size: 19px;
+
+}
 #next{
-  background-color: #cbeaed;
+  background-color: white;
     
  border-style: outset;
   
  border-color: none;
  
- color: black;
+ color: #5d0426;
 
  font-weight: bolder;
 height: 25px;
@@ -37,6 +44,12 @@ height: 25px;
 font-size:15px;
 font-family: 'Signika Negative', sans-serif;
 /*font-family: 'Dekko', cursive;*/
-text-align: center;
+
 
 }
+
+
+      /*for screens larger than 320px but less than 480px*/
+   
+     @media only screen and (min-width: 320px) and (max-width: 480px){
+ 
