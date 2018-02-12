@@ -1,13 +1,16 @@
 body{
-    background: white;
+    background: grey;
     background-size: cover;
-    color: black; 
+        color: white; 
+   /* width: 1400px;
+    height: 5000px;*/
     font-family: 'Signika Negative', sans-serif;
     line-height: 2.0;
     font-size: 18px;
    }
    .titles{
-	color: #000066;
+	/*color: #000066;*/
+  color: #baf2ee;
    }
    /*.btns{
     background-color: #000066;
@@ -21,5 +24,15 @@ body{
    .screens:hover{
 	transform: scale(1.5,1.5);
    }
+   div.screens {
+    margin: 5px;
+    /*border: 1px solid #ccc;*/
+    float: left;
+    width: 180px;
+}
 
+   div.screens img {
+    width: 100%;
+    height: auto;
+  }
 
