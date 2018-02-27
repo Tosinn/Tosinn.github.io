@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1">
+    <meta name="description" content="Affordable Web Design For Small And Medium-sized Companies">
+    <meta name="author" content="Sebastian Eschweiler">
+    <title>Online Hospital</title>
+    <link rel="stylesheet" href="onlinehospital.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="./css/font-awesome.min.css">-->
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        
+        <a href="onlinehospital.html" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#how">How It Works</a>
+        <a href="#quest">Ask a Question</a>
+        <a href="#review">What People are Saying</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+       <!-- <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how">How It Works</a></li>
+            <li><a href="#quest">Ask a Question</a></li>
+            <li><a href="#review">What People are Saying</a></li>
+             <li><a href="#contact">Contact</a></li>
+             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </ul>
+        </nav> -->
+      </div>
+    </header>
+
+    <section id="showcase">
+     <div id="titles" class="container">
+        <h1>Doctor Care</h1><br>
+        <p>Avoid confusion<br>Eliminate Anxiety<br>Talk to a doctor now!</p>    
+      </div>
+      <button id="button_1"><a href="#quest">GET ANSWERS</a></button>
+    </section>
+
+    <section id="about">
+      <div class="container">
+            <h1>About</h1>
+            <p>We are a team of professionals with over a decade of experience in our fields. We are here to offer services in general medicine as well as in specific areas such as gynaecology, pediatrics, dermatology, orthopedics, optamology and nutrition. Feel free to fill the form below and we will get to you as soon as possible. Welcome. </p>
+            </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="container">
+            <h1>How It Works</h1>
+            <img src="question.jpeg" id="que"><p>Ask a  question</p><br><br>
+            <img src="answer2.png" id="ans"><p>Get professional answers to ailments, pains, or just a second opinion.</p><br><br>
+            <img src="savings.png" id="save"><p>Have first consultation for free</p><br><br>
+            <img src="ref2.png" id="ref"><p>Get Professional and reliable recommendations where necessary</p><br><br>
+      </div>
+    </section>
+
+    <section id="quest">
+      <div class="container">
+           <!-- <h1>Ask a Question</h1>
+            <form class="formA">            
+              <p class="name">Name <input type="text"></p>  
+              <p class="name">Email<input type="email"></p>
+              <p class="name">Phone <input type="number"></p>
+              <p class="name">Gender <input type="text" id="gen"></p>
+              <p class="name">Age <input type="number" id="age"></p>
+              <textarea rows="12" cols="50">Ask a question</textarea> 
+            </form>
+        <button id="sub">SUBMIT</button>   
+            </div>
+      </div>-->
+   
+    <div class="formA">
+  <form>
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="mail">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="mail" name="mail" placeholder="Your email..">
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-25">
+        <label for="phone">Phone</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="phone" name="phone" >
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-25">
+        <label for="gender">Gender</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="gender" name="gender">
+      </div>
+    </div>
+        <div class="row">
+      <div class="col-25">
+        <label for="age">Age</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="age" name="age">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="question">Your Question</label>
+      </div>
+      <div class="col-75">
+        <textarea id="question" name="question" placeholder="type here.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+ </section> 
+
+
+    <section id="review">
+      <div class="container">
+            <h1>What People are Saying</h1>
+            <div class=comments>
+            <div id=first>
+            <p>"For the first time, i got a prescription that actually worked. Thanks"</p>
+            </div>
+
+            <div id=second>
+            <p>"I was amazed at how swiftly they responded to me."</p>
+            </div>
+
+            <div id=third>
+            <p>"I've had a bad knee since I can remember". You helped me finally deal with the underlying cause."</p>
+            </div>
+
+            <div id=fourth>
+            <p>"Now I no longer have to be scared of the rainy season due to my allergies."</p>
+            </div>
+            </div>     
+      </div>
+    </section>
+
+    <footer id="contact">
+        <h1>Contact</h1>
+            <p>Phone: 01-77886543  080887645376</p>
+            <p>Email: doctorcare@gmail.com </p>
+    </footer>
+
+  
+      <script src="nav.js"></script>
+
+  </body>
+</html>
