@@ -1,0 +1,14 @@
+body {
+	background-color:#80bfff;
+}
+.weatherCont {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+}

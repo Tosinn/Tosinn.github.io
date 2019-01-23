@@ -1,0 +1,92 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  /*color: #818181;*/
+}
+/*NAVBAR*/
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+.navbar-brand {
+  font-size: 40px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #80bfff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+/*ABOUT SECTION*/
+#services {
+  background-color: #b3d9ff;
+}
+/*CUSTOMER REVIEWS*/
+#reviews {
+  background-color: #b3d9ff;
+}
+/*.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}
+.custom-toggler .navbar-toggler-icon {
+ /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)'
+  stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");*/
+/*SERVICES*/
+.icons {
+  color: #1a8cff;
+}
+
+.serviceName {
+  margin-left: 100px;
+}
+/*FOOTER*/
+.arrow {
+  padding-left: 1200px;
+  color: #001a00;
+  font-weight: light;
+  opacity: 0.5;
+}
+
+@media (max-width : 576px){
+  #about {
+    margin-top: 50px;
+  }
+  #services {
+    margin-top: 50px;
+  }
+  #portfolio {
+    margin-top: 50px;
+  }
+  #reviews {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .carousel-inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .map{
+  margin-top: 50px;
+        }
+    #contact {
+      margin-top: 50px;
+    }
+}
+    /*FOOTER
+.arrow {
+
+  color: #001a00;
+  font-weight: light;
+float: right;
+  }*/
